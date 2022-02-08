@@ -7,9 +7,7 @@ import { Heroe } from '../../interfaces/heroes.interfaces';
   templateUrl: './listado.component.html',
   styles: [
     `
-      mat-card{
-        margin-top: 20px;
-      }
+      
     `
   ]
 })
