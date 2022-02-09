@@ -25,4 +25,9 @@ export class LoginComponent  {
     
   }  
 
+  ingresarSinLogin() {
+    this.authservice.logout();
+    this.router.navigate(['./heroes']);
+  }
+
 }
